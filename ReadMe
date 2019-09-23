@@ -1,0 +1,8 @@
+1. 由于上传文件大小限制, 此处仅列出论文中所用目标跟踪和分割模型的链接:
+   https://github.com/foolwood/SiamMask
+
+2. 配置好模型环境后, 运行python ../../tools/demo.py --resume SiamMask_DAVIS.pth --config config_davis.json
+   可对选定的目标进行跟踪, 文件夹中已包含demo.py文件, 以及目标跟踪和分割的结果示例视频demo.avi. 
+
+3. 注意修改代码中输入输出文件的路径, 输入文件可由crop_images_from_video.py生成视频帧图片
+
